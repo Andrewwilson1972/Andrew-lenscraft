@@ -1,73 +1,109 @@
-# React + TypeScript + Vite
+# 📸 Andrew Lenscraft
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern cinematic photography portfolio website built using React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🌐 [Andrew Lenscraft Portfolio](https://andrew-lenscraft.vercel.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Modern cinematic dark UI
+- Fully responsive design
+- Interactive sidebar navigation
+- Smooth scrolling experience
+- Professional photography gallery
+- About section
+- Contact section with email integration
+- Instagram integration
+- Built using React + TypeScript + Vite
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- React
+- TypeScript
+- Vite
+- CSS3
+- React Icons
+
+---
+
+## 📸 Preview
+
+![Portfolio Preview](./photo.jpg)
+
+---
+
+## 📂 Project Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Andrewwilson1972/Andrew-lenscraft.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 2️⃣ Navigate to Project Folder
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd Andrew-lenscraft
 ```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 4️⃣ Run Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **Vercel**.
+
+🔗 Live Website:  
+https://andrew-lenscraft.vercel.app
+
+---
+## 👨‍💻 Author
+
+### Andrew Wilson
+
+📧 Email:  
+andrewwilson9441@gmail.com
+
+📸 Instagram:  
+https://www.instagram.com/andrew_5667
+
+💼 LinkedIn:  
+https://www.linkedin.com/in/andrew-wilson-1b7b55247/
+
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
+
+---
+
+## 📜 License
+
+This project is open source and available under the MIT License.
