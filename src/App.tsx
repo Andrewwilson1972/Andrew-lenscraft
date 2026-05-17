@@ -1,12 +1,17 @@
+import Home from "./pages/Home";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
+import Cursor from "./components/Cursor";
 
 function App() {
   return (
     <>
+      <Cursor />
+
       <Sidebar />
+
       <Home />
+
       <Footer />
     </>
   );

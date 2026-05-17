@@ -12,10 +12,14 @@ const Home = () => {
 
       {/* ABOUT SECTION */}
 
-      <section id="about" className="about-section">
-        <h1>About Lenscraft</h1>
+      <section
+        id="about"
+        className="about-section section-animation"
+        data-aos="fade-right"
+      >
+        <h1 data-aos="fade-right">About Lenscraft</h1>
 
-        <p>
+        <p data-aos="fade-right" data-aos-delay="200">
           Andrew Lenscraft is a modern photography portfolio focused on
           cinematic visuals, creative storytelling, and immersive digital
           experiences. Every frame captures emotion, depth, and artistic
@@ -29,22 +33,26 @@ const Home = () => {
 
       {/* CONTACT SECTION */}
 
-      <section id="contact" className="contact-section">
-        <h1>Contact</h1>
+      <section
+        id="contact"
+        className="contact-section section-animation"
+        data-aos="fade-right"
+      >
+        <h1 data-aos="fade-right">Contact</h1>
 
-        <p>
+        <p data-aos="fade-right" data-aos-delay="200">
           Let's collaborate and create visually stunning stories through
           photography, cinematic aesthetics, and modern design.
         </p>
 
-        <div className="contact-buttons">
-          {/* EMAIL BUTTON */}
-
+        <div
+          className="contact-buttons"
+          data-aos="fade-right"
+          data-aos-delay="400"
+        >
           <a href="mailto:andrewwilson9441@gmail.com">
             <button className="primary-btn">Email Me</button>
           </a>
-
-          {/* INSTAGRAM BUTTON */}
 
           <a
             href="https://www.instagram.com/andrew_5667?igsh=ZTI0MmRtaDNxdXMy"

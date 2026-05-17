@@ -63,12 +63,19 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="gallery-section">
-      <h1 className="gallery-title">Gallery</h1>
+    <section id="gallery" className="gallery-section section-animation">
+      <h1 className="gallery-title" data-aos="fade-right">
+        Gallery
+      </h1>
 
       <div className="gallery-grid">
         {images.map((image, index) => (
-          <div className="gallery-card" key={index}>
+          <div
+            className="gallery-card"
+            key={index}
+            data-aos="fade-right"
+            data-aos-delay={index * 100}
+          >
             <img src={image.src} alt={image.title} />
 
             <div className="gallery-caption">{image.title}</div>

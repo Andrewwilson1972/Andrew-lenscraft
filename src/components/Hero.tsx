@@ -3,7 +3,7 @@ const Hero = () => {
     <section className="hero">
       <div className="overlay"></div>
 
-      <div className="hero-content">
+      <div className="hero-content" data-aos="fade-right">
         <p className="subtitle">CINEMATIC PHOTOGRAPHY</p>
 
         <h1>Andrew Lenscraft</h1>
